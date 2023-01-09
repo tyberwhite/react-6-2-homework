@@ -17,6 +17,20 @@
 // Replace Method - syntax: replace(pattern, replacement)
 // The pattern can be a string or a RegExp
 
+// NOTE! Object.keys() method returns an array of an object's enumerable string-keyed property names
+/*  Example:  const object1 = {
+                a: "somestring",
+                b: 42,
+                c: false
+                };
+
+              console.log(Object.keys(object1)); // Output: ["a", "b", "c"]
+
+*/
+
+// NOTE! every() method tests whether all elements in the array pass the test implemented by the provided function
+// Syntax: every(callbackFn)
+
 const validAnagram = (str1, str2) => {
   // Create empty objects to store character frequencies
   let charFrequency1 = {};
